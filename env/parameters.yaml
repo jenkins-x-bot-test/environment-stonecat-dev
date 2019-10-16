@@ -1,0 +1,14 @@
+adminUser:
+  password: vault:stonecat/adminUser:password
+  username: admin
+dashboardAuthID: vault:stonecat:dashboardAuthID
+dashboardAuthOrg: arcalos-dashboard
+dashboardAuthSecret: vault:stonecat:dashboardAuthSecret
+dashboardGrpchost: dex.jx
+enableDocker: false
+pipelineUser:
+  email: jenkins-x@googlegroups.com
+  token: vault:stonecat/pipelineUser:token
+  username: jenkins-x-bot-test
+prow:
+  hmacToken: vault:stonecat/prow:hmacToken
